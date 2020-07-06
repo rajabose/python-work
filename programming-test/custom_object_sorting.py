@@ -20,7 +20,7 @@ a  =[[]]
 print(a)
 m, n = 5,6
 arr = [[n-x for x in range(n)] for x in range(m)]
-print(arr[0])
+print(arr)
 arr[0].sort()
 print(arr[0])
 
